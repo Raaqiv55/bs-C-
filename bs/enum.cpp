@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cstdint>
 
 enum class Status {
     Unknown,
@@ -11,6 +11,12 @@ enum class UserPerission {
     unknown,
     User,
     Admin,
+};
+
+
+struct User {
+    Status status;
+    std::uint64_t id;
 };
 
 int main(){
