@@ -1,0 +1,1 @@
+const auto result1 = faculty(5);
